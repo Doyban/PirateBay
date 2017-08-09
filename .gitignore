@@ -1,0 +1,8 @@
+# PhpStorm:
+.idea
+
+# Intel XDK.
+xdk
+
+# Dependencies.
+node_modules

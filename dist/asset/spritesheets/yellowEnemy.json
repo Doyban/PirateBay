@@ -1,0 +1,460 @@
+{"frames": [
+
+{
+	"filename": "sailing-left-0.png",
+	"frame": {"x":376,"y":0,"w":114,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":67},
+	"sourceSize": {"w":114,"h":67}
+},
+{
+	"filename": "sailing-left-1.png",
+	"frame": {"x":574,"y":135,"w":120,"h":77},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":77},
+	"sourceSize": {"w":120,"h":77}
+},
+{
+	"filename": "sailing-left-2.png",
+	"frame": {"x":248,"y":296,"w":124,"h":87},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":124,"h":87},
+	"sourceSize": {"w":124,"h":87}
+},
+{
+	"filename": "sailing-left-3.png",
+	"frame": {"x":479,"y":384,"w":128,"h":95},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":95},
+	"sourceSize": {"w":128,"h":95}
+},
+{
+	"filename": "sailing-left-4.png",
+	"frame": {"x":124,"y":296,"w":124,"h":87},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":124,"h":87},
+	"sourceSize": {"w":124,"h":87}
+},
+{
+	"filename": "sailing-left-5.png",
+	"frame": {"x":694,"y":135,"w":120,"h":77},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":77},
+	"sourceSize": {"w":120,"h":77}
+},
+{
+	"filename": "sailing-left-6.png",
+	"frame": {"x":114,"y":67,"w":114,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":67},
+	"sourceSize": {"w":114,"h":67}
+},
+{
+	"filename": "sailing-left-7.png",
+	"frame": {"x":0,"y":212,"w":120,"h":77},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":77},
+	"sourceSize": {"w":120,"h":77}
+},
+{
+	"filename": "sailing-left-8.png",
+	"frame": {"x":372,"y":296,"w":124,"h":87},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":124,"h":87},
+	"sourceSize": {"w":124,"h":87}
+},
+{
+	"filename": "sailing-left-9.png",
+	"frame": {"x":351,"y":384,"w":128,"h":95},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":95},
+	"sourceSize": {"w":128,"h":95}
+},
+{
+	"filename": "sailing-left-10.png",
+	"frame": {"x":496,"y":296,"w":124,"h":87},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":124,"h":87},
+	"sourceSize": {"w":124,"h":87}
+},
+{
+	"filename": "sailing-left-11.png",
+	"frame": {"x":814,"y":135,"w":120,"h":77},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":77},
+	"sourceSize": {"w":120,"h":77}
+},
+{
+	"filename": "sailing-right-0.png",
+	"frame": {"x":803,"y":67,"w":115,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":115,"h":68},
+	"sourceSize": {"w":115,"h":68}
+},
+{
+	"filename": "sailing-right-1.png",
+	"frame": {"x":241,"y":212,"w":121,"h":78},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":121,"h":78},
+	"sourceSize": {"w":121,"h":78}
+},
+{
+	"filename": "sailing-right-2.png",
+	"frame": {"x":0,"y":384,"w":125,"h":88},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":125,"h":88},
+	"sourceSize": {"w":125,"h":88}
+},
+{
+	"filename": "sailing-right-3.png",
+	"frame": {"x":735,"y":384,"w":128,"h":96},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":96},
+	"sourceSize": {"w":128,"h":96}
+},
+{
+	"filename": "sailing-right-4.png",
+	"frame": {"x":872,"y":296,"w":125,"h":88},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":125,"h":88},
+	"sourceSize": {"w":125,"h":88}
+},
+{
+	"filename": "sailing-right-5.png",
+	"frame": {"x":120,"y":212,"w":121,"h":78},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":121,"h":78},
+	"sourceSize": {"w":121,"h":78}
+},
+{
+	"filename": "sailing-right-6.png",
+	"frame": {"x":458,"y":67,"w":115,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":115,"h":68},
+	"sourceSize": {"w":115,"h":68}
+},
+{
+	"filename": "sailing-right-7.png",
+	"frame": {"x":483,"y":212,"w":121,"h":78},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":121,"h":78},
+	"sourceSize": {"w":121,"h":78}
+},
+{
+	"filename": "sailing-right-8.png",
+	"frame": {"x":747,"y":296,"w":125,"h":88},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":125,"h":88},
+	"sourceSize": {"w":125,"h":88}
+},
+{
+	"filename": "sailing-right-9.png",
+	"frame": {"x":607,"y":384,"w":128,"h":96},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":128,"h":96},
+	"sourceSize": {"w":128,"h":96}
+},
+{
+	"filename": "sailing-right-10.png",
+	"frame": {"x":125,"y":384,"w":125,"h":88},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":125,"h":88},
+	"sourceSize": {"w":125,"h":88}
+},
+{
+	"filename": "sailing-right-11.png",
+	"frame": {"x":362,"y":212,"w":121,"h":78},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":121,"h":78},
+	"sourceSize": {"w":121,"h":78}
+},
+{
+	"filename": "shooting-left-0.png",
+	"frame": {"x":832,"y":0,"w":114,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":67},
+	"sourceSize": {"w":114,"h":67}
+},
+{
+	"filename": "shooting-left-1.png",
+	"frame": {"x":262,"y":0,"w":114,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":67},
+	"sourceSize": {"w":114,"h":67}
+},
+{
+	"filename": "shooting-left-2.png",
+	"frame": {"x":148,"y":0,"w":114,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":67},
+	"sourceSize": {"w":114,"h":67}
+},
+{
+	"filename": "shooting-left-3.png",
+	"frame": {"x":460,"y":135,"w":114,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":75},
+	"sourceSize": {"w":114,"h":75}
+},
+{
+	"filename": "shooting-left-4.png",
+	"frame": {"x":0,"y":67,"w":114,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":67},
+	"sourceSize": {"w":114,"h":67}
+},
+{
+	"filename": "shooting-left-5.png",
+	"frame": {"x":490,"y":0,"w":114,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":67},
+	"sourceSize": {"w":114,"h":67}
+},
+{
+	"filename": "shooting-left-6.png",
+	"frame": {"x":604,"y":0,"w":114,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":67},
+	"sourceSize": {"w":114,"h":67}
+},
+{
+	"filename": "shooting-left-7.png",
+	"frame": {"x":718,"y":0,"w":114,"h":67},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":67},
+	"sourceSize": {"w":114,"h":67}
+},
+{
+	"filename": "shooting-right-0.png",
+	"frame": {"x":343,"y":67,"w":115,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":115,"h":68},
+	"sourceSize": {"w":115,"h":68}
+},
+{
+	"filename": "shooting-right-1.png",
+	"frame": {"x":688,"y":67,"w":115,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":115,"h":68},
+	"sourceSize": {"w":115,"h":68}
+},
+{
+	"filename": "shooting-right-2.png",
+	"frame": {"x":228,"y":67,"w":115,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":115,"h":68},
+	"sourceSize": {"w":115,"h":68}
+},
+{
+	"filename": "shooting-right-3.png",
+	"frame": {"x":345,"y":135,"w":115,"h":75},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":115,"h":75},
+	"sourceSize": {"w":115,"h":75}
+},
+{
+	"filename": "shooting-right-4.png",
+	"frame": {"x":573,"y":67,"w":115,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":115,"h":68},
+	"sourceSize": {"w":115,"h":68}
+},
+{
+	"filename": "shooting-right-5.png",
+	"frame": {"x":115,"y":135,"w":115,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":115,"h":68},
+	"sourceSize": {"w":115,"h":68}
+},
+{
+	"filename": "shooting-right-6.png",
+	"frame": {"x":230,"y":135,"w":115,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":115,"h":68},
+	"sourceSize": {"w":115,"h":68}
+},
+{
+	"filename": "shooting-right-7.png",
+	"frame": {"x":0,"y":135,"w":115,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":115,"h":68},
+	"sourceSize": {"w":115,"h":68}
+},
+{
+	"filename": "sinking-left-0.png",
+	"frame": {"x":0,"y":296,"w":124,"h":87},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":124,"h":87},
+	"sourceSize": {"w":124,"h":87}
+},
+{
+	"filename": "sinking-left-1.png",
+	"frame": {"x":0,"y":485,"w":138,"h":109},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":138,"h":109},
+	"sourceSize": {"w":138,"h":109}
+},
+{
+	"filename": "sinking-left-2.png",
+	"frame": {"x":279,"y":485,"w":156,"h":133},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":156,"h":133},
+	"sourceSize": {"w":156,"h":133}
+},
+{
+	"filename": "sinking-left-3.png",
+	"frame": {"x":594,"y":485,"w":178,"h":159},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":178,"h":159},
+	"sourceSize": {"w":178,"h":159}
+},
+{
+	"filename": "sinking-left-4.png",
+	"frame": {"x":863,"y":384,"w":104,"h":101},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":104,"h":101},
+	"sourceSize": {"w":104,"h":101}
+},
+{
+	"filename": "sinking-left-5.png",
+	"frame": {"x":853,"y":212,"w":114,"h":84},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":84},
+	"sourceSize": {"w":114,"h":84}
+},
+{
+	"filename": "sinking-left-6.png",
+	"frame": {"x":705,"y":212,"w":74,"h":84},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":84},
+	"sourceSize": {"w":74,"h":84}
+},
+{
+	"filename": "sinking-left-7.png",
+	"frame": {"x":74,"y":0,"w":74,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":60},
+	"sourceSize": {"w":74,"h":60}
+},
+{
+	"filename": "sinking-right-0.png",
+	"frame": {"x":620,"y":296,"w":127,"h":88},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":127,"h":88},
+	"sourceSize": {"w":127,"h":88}
+},
+{
+	"filename": "sinking-right-1.png",
+	"frame": {"x":138,"y":485,"w":141,"h":110},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":141,"h":110},
+	"sourceSize": {"w":141,"h":110}
+},
+{
+	"filename": "sinking-right-2.png",
+	"frame": {"x":435,"y":485,"w":159,"h":134},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":159,"h":134},
+	"sourceSize": {"w":159,"h":134}
+},
+{
+	"filename": "sinking-right-3.png",
+	"frame": {"x":772,"y":485,"w":181,"h":160},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":160},
+	"sourceSize": {"w":181,"h":160}
+},
+{
+	"filename": "sinking-right-4.png",
+	"frame": {"x":250,"y":384,"w":101,"h":93},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":101,"h":93},
+	"sourceSize": {"w":101,"h":93}
+},
+{
+	"filename": "sinking-right-5.png",
+	"frame": {"x":604,"y":212,"w":101,"h":81},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":101,"h":81},
+	"sourceSize": {"w":101,"h":81}
+},
+{
+	"filename": "sinking-right-6.png",
+	"frame": {"x":779,"y":212,"w":74,"h":84},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":84},
+	"sourceSize": {"w":74,"h":84}
+},
+{
+	"filename": "sinking-right-7.png",
+	"frame": {"x":0,"y":0,"w":74,"h":60},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":74,"h":60},
+	"sourceSize": {"w":74,"h":60}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "yellowEnemy.png",
+	"format": "RGBA8888",
+	"size": {"w":997,"h":645},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:d5413bafe0a1dbc29d4964a34ae5336e:0ae473430584158198935ab45ef0ba90:be47886a8799a7498c315f75cbff1a1c$"
+}
+}
