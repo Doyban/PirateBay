@@ -24,7 +24,7 @@
   };
 
   ShareScore.prototype.startShare = function () {
-    // TODO: Add behavior for this event.
-    alert('lastScore is ' + this.lastScore + ' ; last round is ' + this.lastRound);
+    // alert('lastScore is ' + this.lastScore + ' ; last round is ' + this.lastRound);
+    global.FacebookAPI.prototype.shareScore(this.lastScore, this.lastRound);
   };
 })(this);

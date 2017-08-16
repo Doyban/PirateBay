@@ -16,6 +16,9 @@
     this.scorex3Button = this.game.add.button(this.game.world.width * 0.55, this.game.world.height * 0.2, 'scorex3', this.startPaymentScorex3, this);
     this.scorex4Button = this.game.add.button(this.game.world.width * 0.2, this.game.world.height * 0.6, 'scorex4', this.startPaymentScorex4, this);
     this.scorex6Button = this.game.add.button(this.game.world.width * 0.55, this.game.world.height * 0.6, 'scorex6', this.startPaymentScorex6, this);
+
+    global.FacebookAPI.prototype.showProducts();
+    global.FacebookAPI.prototype.showPurchases();
   };
 
   Store.prototype.startMenu = function () {
@@ -24,25 +27,29 @@
 
   Store.prototype.startPaymentScorex2 = function () {
     // TODO: Add behavior for this event.
-    alert('score x2');
-    localStorage.scoreRate = 2;
+    // alert('score x2');
+    // localStorage.scoreRate = 2;
+    global.FacebookAPI.prototype.purchaseScorex2();
   };
 
   Store.prototype.startPaymentScorex3 = function () {
     // TODO: Add behavior for this event.
-    alert('score x3');
-    localStorage.scoreRate = 3;
+    // alert('score x3');
+    // localStorage.scoreRate = 3;
+    global.FacebookAPI.prototype.purchaseScorex3();
   };
 
   Store.prototype.startPaymentScorex4 = function () {
     // TODO: Add behavior for this event.
-    alert('score x4');
-    localStorage.scoreRate = 4;
+    // alert('score x4');
+    // localStorage.scoreRate = 4;
+    global.FacebookAPI.prototype.purchaseScorex4();
   };
 
   Store.prototype.startPaymentScorex6 = function () {
     // TODO: Add behavior for this event.
-    alert('score x6');
-    localStorage.scoreRate = 6;
+    // alert('score x6');
+    // localStorage.scoreRate = 6;
+    global.FacebookAPI.prototype.purchaseScorex6();
   };
 }(this));
