@@ -30,16 +30,8 @@
 
       // Buttons.
       this.load.image('exit', buttonExit);
-      this.load.image('invite', buttonInvite);
       this.load.image('login', buttonLogin);
       this.load.image('play', buttonPlay);
-      this.load.image('share', buttonShare);
-      this.load.image('shareBig', buttonShareBig);
-      this.load.image('store', buttonStore);
-      this.load.image('scorex2', buttonScoreX2);
-      this.load.image('scorex3', buttonScoreX3);
-      this.load.image('scorex4', buttonScoreX4);
-      this.load.image('scorex6', buttonScoreX6);
 
       // Background.
       this.load.image('backgroundGame', backgroundGame);

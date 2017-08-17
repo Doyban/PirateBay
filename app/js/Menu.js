@@ -14,11 +14,8 @@
 
     // Add Menu buttons.
     this.exitButton = this.game.add.button(this.game.world.width * 0.85, this.game.world.height * 0.03, "exit", this.startExit, this);
-    this.inviteButton = this.game.add.button(this.game.world.width * 0.19, this.game.world.height * 0.3, "invite", this.startInvite, this);
     this.loginButton = this.game.add.button(this.game.world.width * 0.445, this.game.world.height * 0.3, "login", this.startLogin, this);
-    this.shareButton = this.game.add.button(this.game.world.width * 0.7, this.game.world.height * 0.3, "share", this.startShare, this);
-    this.playButton = this.game.add.button(this.game.world.width * 0.1, this.game.world.height * 0.5, "play", this.startPlay, this);
-    this.storeButton = this.game.add.button(this.game.world.width * 0.6, this.game.world.height * 0.5, "store", this.startStore, this);
+    this.playButton = this.game.add.button(this.game.world.width * 0.345, this.game.world.height * 0.5, "play", this.startPlay, this);
 
     localStorage.scoreRate = localStorage.scoreRate || 1; // Initialize scoreRate.
 
@@ -77,29 +74,16 @@
 
   Menu.prototype.startExit = function () {
     // TODO: Add behavior for this event.
-    alert('exit');
-  };
-
-  Menu.prototype.startInvite = function () {
-    // TODO: Add behavior for this event.
-    alert('invite');
+    // alert('exit');
+    window.open("https://itch.io/");
   };
 
   Menu.prototype.startLogin = function () {
-    // TODO: Add behavior for this event.
-    alert('login');
+    // alert('login');
+    global.FirebaseAPI.prototype.loginUser(); // Log in user through Firebase.
   };
 
   Menu.prototype.startPlay = function () {
     this.game.state.start('Game'); // Start Game state.
-  };
-
-  Menu.prototype.startShare = function () {
-    // TODO: Add behavior for this event.
-    alert('share');
-  };
-
-  Menu.prototype.startStore = function () {
-    this.game.state.start('Store'); // Start Store state.
   };
 }(this));

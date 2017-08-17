@@ -156,7 +156,7 @@
       this.soundGameOver.play(); // Play game over sound.
       this.soundGame.stop(); // Stop playing background music.
 
-      this.game.state.start('ShareScore'); // Start ShareScore state.
+      this.game.state.start('Menu'); // Start Menu state.
       localStorage.scoreRate = 1; // Set to default scoreRate on game over.
 
       return true;

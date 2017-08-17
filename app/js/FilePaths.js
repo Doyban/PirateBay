@@ -4,16 +4,8 @@ var backgroundGame = 'asset/backgroundGame.png';
 
 // Buttons.
 var buttonExit = 'asset/exit.png';
-var buttonInvite = 'asset/invite.png';
 var buttonLogin = 'asset/login.png';
 var buttonPlay = 'asset/play.png';
-var buttonShare = 'asset/share.png';
-var buttonShareBig = 'asset/shareBig.png';
-var buttonStore = 'asset/store.png';
-var buttonScoreX2 = 'asset/scorex2.png';
-var buttonScoreX3 = 'asset/scorex3.png';
-var buttonScoreX4 = 'asset/scorex4.png';
-var buttonScoreX6 = 'asset/scorex6.png';
 
 // Sprites.
 var spriteShield = 'asset/shield.png';
