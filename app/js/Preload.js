@@ -4,7 +4,7 @@
   Preload.prototype = {
     // Initialize settings before preload starts.
     init: function () {
-      // Scale page to fill full screen size.
+      // Scale page to fill full screen size and align to the center.
       this.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
       this.scale.pageAlignHorizontally = true;
       this.scale.pageAlignVertically = true;

@@ -2,7 +2,9 @@
 .idea
 
 # Intel XDK.
+plugins
 xdk
 
 # Dependencies.
 node_modules
+

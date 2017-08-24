@@ -130,8 +130,8 @@
       x = this.game.rnd.pick([-50, 700]); // Return random number between -50 and 700 for X coordinate.
     }
 
-    r = this.game.rnd.integerInRange(0, 7); // Return random number between 0 and 7 for radius.
-    y = 80 + (400 - 80) / 5 * r; // Calculate Y coordinate.
+    r = this.game.rnd.integerInRange(0, 4); // Return random number between 0 and 4 for radius.
+    y = 80 + (400 - 80) / 6 * r; // Calculate Y coordinate.
     return {x: x, y: y}; // Return X and Y coordinate.
   };
 }(this));

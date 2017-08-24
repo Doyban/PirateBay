@@ -1,0 +1,249 @@
+{
+  "project": {
+    "creationData": {
+      "type": "Import",
+      "projectTypeName": "com.intel.xdk.projecttype.jsapp",
+      "src": "",
+      "projectGuid": "b14064de-999d-4421-bf4d-efaded1d68eb",
+      "lastModifiedDate": 1503043154018,
+      "creationDate": 1503039970741
+    },
+    "testDirectory": "test",
+    "projectTags": [
+      "XDK-disallow-legacy-whitelist"
+    ],
+    "projectFiles": {},
+    "projectDirectories": {
+      "xdk": {
+        "settings": {
+          "project": {
+            "XDK-generated": "true"
+          }
+        }
+      }
+    },
+    "buildConfigurations": {
+      "Android": {
+        "platform_": "android",
+        "runtime_": "Crosswalk with Cordova 3.x",
+        "name_": "Android",
+        "preferences_": {
+          "android-minSdkVersion": "14",
+          "android-targetSdkVersion": "23",
+          "android-installLocation": "auto",
+          "android-signed": true
+        },
+        "isActive_": true,
+        "certificateId_": "",
+        "appName_": "PirateBay",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "addlPermissions_": "",
+        "icons_": [],
+        "splashes_": [],
+        "appVersion_": "0.0.1",
+        "appVersionCode_": "1",
+        "signed_": true,
+        "crosswalkVersion_": "23",
+        "cordovaCLIVersion_": "6.2.0"
+      },
+      "iOS": {
+        "platform_": "ios",
+        "runtime_": "Cordova 3.x",
+        "name_": "iOS",
+        "preferences_": {
+          "deployment-target": "8.0",
+          "ios-configuration": "adhoc"
+        },
+        "isActive_": true,
+        "certificateId_": "",
+        "appName_": "PirateBay",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "addlPermissions_": "",
+        "icons_": [],
+        "splashes_": [],
+        "appVersion_": "0.0.1",
+        "iosProvs_": [],
+        "cordovaCLIVersion_": "6.2.0"
+      },
+      "Windows8": {
+        "platform_": "windows8",
+        "runtime_": "Cordova 3.x",
+        "name_": "Windows8",
+        "preferences_": {},
+        "isActive_": true,
+        "certificateId_": "",
+        "appName_": "PirateBay",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "addlPermissions_": "",
+        "icons_": [],
+        "splashes_": [],
+        "appVersion_": "0.0.0.1",
+        "cordovaCLIVersion_": "6.2.0"
+      },
+      "WebApp": {
+        "platform_": "webapp",
+        "runtime_": "W3C",
+        "name_": "WebApp",
+        "preferences_": {},
+        "isActive_": false,
+        "certificateId_": "",
+        "appVersion_": "0.0.1"
+      },
+      "Firefox": {
+        "platform_": "firefoxos",
+        "runtime_": "W3C on Firefox OS",
+        "name_": "Firefox",
+        "preferences_": {},
+        "isActive_": false,
+        "certificateId_": "",
+        "appVersion_": "0.0.1"
+      },
+      "Chrome": {
+        "platform_": "chromeos",
+        "runtime_": "W3C on Chrome OS",
+        "name_": "Chrome",
+        "preferences_": {},
+        "isActive_": false,
+        "certificateId_": "",
+        "appName_": "PirateBay",
+        "appID_": "not.yet.specified",
+        "icons_": [],
+        "splashes_": [],
+        "appVersion_": "0.0.1"
+      },
+      "Facebook": {
+        "platform_": "facebook",
+        "runtime_": "W3C on Facebook",
+        "name_": "Facebook",
+        "preferences_": {},
+        "isActive_": false,
+        "certificateId_": "",
+        "appVersion_": "0.0.1"
+      },
+      "WP81": {
+        "platform_": "wp81",
+        "runtime_": "Cordova 3.x",
+        "name_": "WP81",
+        "preferences_": {},
+        "isActive_": true,
+        "certificateId_": "",
+        "appName_": "PirateBay",
+        "appID_": "not.yet.specified",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [
+            "*"
+          ],
+          "intents": [],
+          "navigation": []
+        },
+        "addlPermissions_": "",
+        "icons_": [],
+        "splashes_": [],
+        "appVersion_": "0.0.0.1",
+        "cordovaCLIVersion_": "6.2.0"
+      }
+    },
+    "serviceMethods": [],
+    "cordovaPluginsDirectory": "plugins",
+    "cordovaPlugins": [
+      {
+        "id": "cordova-plugin-statusbar",
+        "name": "StatusBar",
+        "version": "2.1.3",
+        "originType": "cordova.io",
+        "origin": "cordova-plugin-statusbar",
+        "gitref": "",
+        "paramvals": {},
+        "sourceLocation": "plugins/cordova-plugin-statusbar",
+        "selectedState": "Included",
+        "checksum": "c0146fbc",
+        "dependsOn": [],
+        "topLevel": true,
+        "cordovaVersion": ">=3.0.0",
+        "permissions": {},
+        "description": "Cordova StatusBar Plugin",
+        "data": {},
+        "dependedBy": []
+      },
+      {
+        "id": "cordova-admob-sdklibs",
+        "name": "Google Mobile Ads SDK for Cordova",
+        "version": "2.1.4",
+        "originType": "cordova.io",
+        "origin": "cordova-admob-sdklibs",
+        "gitref": "",
+        "paramvals": {},
+        "sourceLocation": "plugins/cordova-admob-sdklibs",
+        "selectedState": "Included",
+        "checksum": "2a1c1411",
+        "dependsOn": [],
+        "topLevel": false,
+        "cordovaVersion": ">=3.0",
+        "author": "Google",
+        "permissions": {},
+        "description": "Add Google Mobile Ads SDK to Cordova project, as dependency for other plugins",
+        "data": {},
+        "dependedBy": [
+          "cordova-plugin-admob-simple"
+        ],
+        "custom": "true"
+      },
+      {
+        "id": "cordova-plugin-admob-simple",
+        "name": "Cordova-Phonegap AdMob Plugin",
+        "version": "3.3.4",
+        "originType": "cordova.io",
+        "origin": "cordova-plugin-admob-simple",
+        "gitref": "",
+        "paramvals": {},
+        "sourceLocation": "plugins/cordova-plugin-admob-simple",
+        "selectedState": "Included",
+        "checksum": "8034ed0a",
+        "dependsOn": [
+          "cordova-admob-sdklibs"
+        ],
+        "topLevel": true,
+        "cordovaVersion": ">=3.0",
+        "author": "Cupertino",
+        "permissions": {
+          "android:name": [
+            "android.permission.INTERNET",
+            "android.permission.ACCESS_NETWORK_STATE"
+          ]
+        },
+        "description": "The FASTEST and EASIEST TO USE Cordova Admob plugin for Android, iOS and Windows phone. We do not send your apps details to our servers. Pure OpenSource Admob code. Allows preloading and automatic loading of interstitials and banners plus more. Works with Cordova, Phonegap, Intel XDK/Crosswalk, Ionic, Meteor and more.",
+        "data": {},
+        "dependedBy": [],
+        "custom": "true"
+      }
+    ],
+    "sourceDirectory": "app",
+    "startFile": "index.html",
+    "projectSettingsVersion": "3.0.0"
+  }
+}

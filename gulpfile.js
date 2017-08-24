@@ -35,16 +35,16 @@ gulp.task('jshint', function() {
     .pipe(jshint.reporter('default'));
 });
 
-// Copy index.html into destination directory.
-gulp.task('copy-index-html', function () {
-  gulp.src('./app/index.html')
-    .pipe(gulp.dest('./dist'));
-});
-
 // Copy audio into destination directory.
 gulp.task('copy-audio', function () {
   gulp.src('./app/audio/**/*')
     .pipe(gulp.dest('./dist/audio'));
+});
+
+// Copy other files into destination directory.
+gulp.task('copy-others', function () {
+  gulp.src(['./app/index.html'])
+    .pipe(gulp.dest('./dist'));
 });
 
 // Minify CSS code.
@@ -76,4 +76,4 @@ gulp.task('compress-images', function() {
 });
 
 gulp.task('default', ['serve-dev']); // Default task.
-gulp.task('dist', ['copy-index-html', 'copy-audio', 'minify-css', 'compress', 'concat', 'compress-images']); // Distribution tasks.
+gulp.task('dist', ['copy-audio', 'copy-others', 'minify-css', 'compress', 'concat', 'compress-images']); // Distribution tasks.

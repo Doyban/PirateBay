@@ -82,7 +82,7 @@
       this.animations.play('shooting-left', null, false, false) // Play shooting left animation.
         .onComplete.add(function () {
         this.animations.play('sinking-left', null, false, true); // Play sinking left animation.
-        enemy.destroy(true); // Kill enemy. TODO: Ask bro.
+        enemy.destroy(true); // Kill enemy.
       }, this);
     }
     // Pirate is sailing from left to right.
@@ -97,7 +97,7 @@
       this.animations.play('shooting-right', null, false, false) // Play shooting right animation.
         .onComplete.add(function () {
         this.animations.play('sinking-right', null, false, true); // Play sinking right animation.
-        enemy.destroy(true); // Kill enemy. TODO: Ask bro.
+        enemy.destroy(true); // Kill enemy.
       }, this);
     } else {
       return;
@@ -116,8 +116,8 @@
       x = this.game.rnd.pick([-50, 800]); // Return random number between -50 and 700 for X coordinate.
     }
 
-    r = this.game.rnd.integerInRange(0, 7); // Return random number between 0 and 7 for radius.
-    y = 80 + (400 - 80) / 5 * r; // Calculate Y coordinate.
+    r = this.game.rnd.integerInRange(0, 4); // Return random number between 0 and 4 for radius.
+    y = 80 + (400 - 80) / 6 * r; // Calculate Y coordinate.
     return {x: x, y: y}; // Return X and Y coordinate.
   };
 }(this));
