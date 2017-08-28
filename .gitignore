@@ -8,3 +8,5 @@ xdk
 # Dependencies.
 node_modules
 
+# Distribution zipped version.
+dist.zip
