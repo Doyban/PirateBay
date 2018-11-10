@@ -1,0 +1,26 @@
+{
+    "cordova-plugin-statusbar": {
+        "source": {
+            "type": "local",
+            "path": "/Applications/Intel XDK/Intel XDK.app/Contents/Resources/app.nw/components/server/cordova/cordova-plugins/cordova-plugin-statusbar"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-admob-simple": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-admob-simple"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-admob-sdklibs": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-admob-sdklibs"
+        },
+        "is_top_level": false,
+        "variables": {}
+    }
+}

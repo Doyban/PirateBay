@@ -7,7 +7,6 @@ var minifyCSS = require('gulp-minify-css');
 var uglify = require('gulp-uglify');
 var browserSync = require('browser-sync').create();
 var concat = require('gulp-concat');
-var minifyHTML = require('gulp-htmlmin');
 
 var reload = browserSync.reload;
 
@@ -22,6 +21,13 @@ gulp.task('serve-dev', [], function () {
   gulp.watch('./app/*.html').on('change', reload);
 });
 
+// Reload browser on changes in distribution mode.
+gulp.task('serve-dist', [], function () {
+  browserSync.init({
+    server: './dist'
+  });
+});
+
 // Use JSHint.
 gulp.task('jshint', function() {
   gulp.src('./app/js/*.js')
@@ -29,17 +35,10 @@ gulp.task('jshint', function() {
     .pipe(jshint.reporter('default'));
 });
 
-// Minify HTML.
-gulp.task('minify-html', function() {
-  return gulp.src('app/*.html')
-    .pipe(minifyHTML({collapseWhitespace: true, removeComments: true}))
-    .pipe(gulp.dest('dist'));
-});
-
-// Copy JavaScript.
-gulp.task('copy-javascript', function () {
-  gulp.src('./app/js/*.js')
-    .pipe(gulp.dest('./dist/js'));
+// Copy index.html into destination directory.
+gulp.task('copy-index-html', function () {
+  gulp.src('./app/index.html')
+    .pipe(gulp.dest('./dist'));
 });
 
 // Copy audio into destination directory.
@@ -64,7 +63,7 @@ gulp.task('compress', function() {
 
 // Concat JavaScript code.
 gulp.task('concat', function () {
-  return gulp.src('./app/js/*.js')
+  return gulp.src('./dist/js/*.js')
     .pipe(concat('all.min.js', {newLine: ';'}))
     .pipe(gulp.dest('./dist/js'));
 });
@@ -76,12 +75,5 @@ gulp.task('compress-images', function() {
     .pipe(gulp.dest('./dist/asset'));
 });
 
-// Reload browser on changes in distribution mode.
-gulp.task('serve-dist', [], function () {
-  browserSync.init({
-    server: './dist'
-  });
-});
-
 gulp.task('default', ['serve-dev']); // Default task.
-gulp.task('dist', ['minify-html', 'compress', 'copy-audio', 'minify-css', 'compress-images']); // Distribution tasks.
+gulp.task('dist', ['copy-index-html', 'copy-audio', 'minify-css', 'compress', 'concat', 'compress-images']); // Distribution tasks.
