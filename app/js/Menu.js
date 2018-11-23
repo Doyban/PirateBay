@@ -76,18 +76,18 @@
   };
 
   Menu.prototype.startExit = function () {
-    // alert('exit');
-    window.open("https://www.facebook.com");
+    // TODO: Add behavior for this event.
+    alert('exit');
   };
 
   Menu.prototype.startInvite = function () {
-    // alert('invite');
-    global.FacebookAPI.prototype.inviteFriends(); // Invite Facebook friends.
+    // TODO: Add behavior for this event.
+    alert('invite');
   };
 
   Menu.prototype.startLogin = function () {
-    // alert('login');
-    global.FirebaseAPI.prototype.loginUser(); // Log in user through Firebase.
+    // TODO: Add behavior for this event.
+    alert('login');
   };
 
   Menu.prototype.startPlay = function () {
@@ -95,8 +95,8 @@
   };
 
   Menu.prototype.startShare = function () {
-    // alert('share');
-    global.FacebookAPI.prototype.shareGame();
+    // TODO: Add behavior for this event.
+    alert('share');
   };
 
   Menu.prototype.startStore = function () {
