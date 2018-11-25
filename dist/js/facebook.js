@@ -1,1 +1,1 @@
-FBInstant.initializeAsync(),FBInstant.setLoadingProgress(100),FBInstant.startGameAsync();
+function initAds(){FBInstant.getInterstitialAdAsync("327736978026913_335734790560465").then(function(n){return(preloadedInterstitial=n).loadAsync()}).then(function(){}).catch(function(n){})}function showAds(){preloadedInterstitial.showAsync().then(function(){}).catch(function(n){})}var preloadedInterstitial=null;FBInstant.initializeAsync(),FBInstant.setLoadingProgress(100),FBInstant.startGameAsync();

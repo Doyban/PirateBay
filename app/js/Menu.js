@@ -37,6 +37,8 @@
     });
   };
 
+  initAds(); // Init Messenger ads.
+
   // Method to display medal based on player score.
   Menu.prototype.displayMedal = function () {
     // Add statistics.
@@ -47,6 +49,7 @@
 
     // Iterate through all stages.
     for (var i = 0; i < this.stages.length; i++) {
+      // TODO: Remove bug when changing state stages are being added as well, most probably manage it with localStorage.
       this.points += parseInt(this.stages[i]); // Add points from each stage to points.
       // console.log(this.stages[i]); // Show past game rounds.
     }

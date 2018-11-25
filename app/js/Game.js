@@ -152,6 +152,8 @@
 
     // Check if there are no more pirates of the map.
     if (this.amountPirates === 0 && !this.createGame) {
+      showAds(); // Show Messenger ads.
+
       // No more pirates on the map then the game is over.
       this.soundGameOver.play(); // Play game over sound.
       this.soundGame.stop(); // Stop playing background music.
