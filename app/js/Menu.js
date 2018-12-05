@@ -79,18 +79,15 @@
   };
 
   Menu.prototype.startExit = function () {
-    // TODO: Add behavior for this event.
-    alert('exit');
+    exitGame();
   };
 
   Menu.prototype.startInvite = function () {
-    // TODO: Add behavior for this event.
-    alert('invite');
+    inviteGame();
   };
 
   Menu.prototype.startLogin = function () {
-    // TODO: Add behavior for this event.
-    alert('login');
+    challengeGame();
   };
 
   Menu.prototype.startPlay = function () {
@@ -98,8 +95,7 @@
   };
 
   Menu.prototype.startShare = function () {
-    // TODO: Add behavior for this event.
-    alert('share');
+    shareGame();
   };
 
   Menu.prototype.startStore = function () {

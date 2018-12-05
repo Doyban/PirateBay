@@ -10,7 +10,6 @@ var preloadedInterstitial = null;
 
 // Initialize Messenger ads.
 function initAds() {
-  // alert('hello');
   FBInstant.getInterstitialAdAsync(
     '327736978026913_335734790560465' // Your Ad Placement Id
   ).then(function(interstitial) {
@@ -29,9 +28,54 @@ function showAds() {
   preloadedInterstitial.showAsync()
     .then(function() {
       // Perform post-ad success operation
-      // alert('Interstitial ad finished successfully');
     })
     .catch(function(e) {
       // alert(e.message);
     });
+}
+
+// Quit game.
+function exitGame() {
+  FBInstant.quit();
+}
+
+// Invite friends.
+function inviteGame() {
+  FBInstant.shareAsync({
+    intent: 'INVITE',
+    image: 'http://doyban.com/logos/piratebay.png',
+    text: 'Play PirateBay on Messenger!',
+    data: { myReplayData: '...' }
+  }).then(function() {
+    // continue with the game.
+  });
+}
+
+// Share game.
+function shareGame() {
+  FBInstant.shareAsync({
+    intent: 'SHARE',
+    image: 'http://doyban.com/logos/piratebay.png',
+    text: 'Play PirateBay on Messenger!',
+    data: { myReplayData: '...' }
+  }).then(function() {
+    // continue with the game.
+  });
+}
+
+// Challenge users, replacement for login.
+function challengeGame() {
+  FBInstant.shareAsync({
+    intent: 'CHALLENGE',
+    image: 'http://doyban.com/logos/piratebay.png',
+    text: 'Challenge for you! PirateBay!',
+    data: { myReplayData: '...' }
+  }).then(function() {
+    // continue with the game.
+  });
+}
+
+// Share highscore.
+function shareHighscore() {
+
 }

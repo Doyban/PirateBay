@@ -1,1 +1,0 @@
-!function(a){var e=new Phaser.Game(800,600,Phaser.AUTO,"body");e.state.add("Preload",Preload),e.state.add("Menu",Menu),e.state.add("Game",Game),e.state.add("Store",Store),e.state.add("ShareScore",ShareScore),e.state.start("Preload")}();
