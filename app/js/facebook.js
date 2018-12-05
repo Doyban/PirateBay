@@ -75,7 +75,14 @@ function challengeGame() {
   });
 }
 
-// Share highscore.
-function shareHighscore() {
-
+// Share score.
+function shareScore(score, round) {
+  FBInstant.shareAsync({
+    intent: 'SHARE',
+    image: 'http://doyban.com/logos/piratebay.png',
+    text: 'My score is ' + score + ' in ' + round + ' round!',
+    data: { myReplayData: '...' }
+  }).then(function() {
+    // continue with the game.
+  });
 }

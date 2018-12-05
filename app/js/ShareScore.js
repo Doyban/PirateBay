@@ -24,7 +24,6 @@
   };
 
   ShareScore.prototype.startShare = function () {
-    // TODO: Add behavior for this event.
-    alert('lastScore is ' + this.lastScore + ' ; last round is ' + this.lastRound);
+    shareScore(this.lastScore, this.lastRound); // Share score.
   };
 })(this);
