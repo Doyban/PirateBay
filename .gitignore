@@ -8,3 +8,4 @@ xdk
 node_modules
 
 app/.DS_Store
+dist
