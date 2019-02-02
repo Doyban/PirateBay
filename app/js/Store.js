@@ -24,25 +24,61 @@
 
   Store.prototype.startPaymentScorex2 = function () {
     // TODO: Add behavior for this event.
-    alert('score x2');
-    localStorage.scoreRate = 2;
+    // alert('score x2');
+    FBInstant.payments.purchaseAsync({
+      productID: 'scorex2',
+      developerPayload: 'foobar'
+    }).then(function (purchase) {
+      // alert(purchase);
+      localStorage.scoreRate = 2;
+    });
+    FBInstant.payments.consumePurchaseAsync('scorex2').then(function () {
+    }).catch(function(error) {
+    });
   };
 
   Store.prototype.startPaymentScorex3 = function () {
     // TODO: Add behavior for this event.
-    alert('score x3');
-    localStorage.scoreRate = 3;
+    // alert('score x3');
+    FBInstant.payments.purchaseAsync({
+      productID: 'scorex3',
+      developerPayload: 'foobar'
+    }).then(function (purchase) {
+      // alert(purchase);
+      localStorage.scoreRate = 3;
+    });
+    FBInstant.payments.consumePurchaseAsync('scorex3').then(function () {
+    }).catch(function(error) {
+    });
   };
 
   Store.prototype.startPaymentScorex4 = function () {
     // TODO: Add behavior for this event.
-    alert('score x4');
-    localStorage.scoreRate = 4;
+    // alert('score x4');
+    FBInstant.payments.purchaseAsync({
+      productID: 'scorex4',
+      developerPayload: 'foobar'
+    }).then(function (purchase) {
+      // alert(purchase);
+      localStorage.scoreRate = 4;
+    });
+    FBInstant.payments.consumePurchaseAsync('scorex4').then(function () {
+    }).catch(function(error) {
+    });
   };
 
   Store.prototype.startPaymentScorex6 = function () {
     // TODO: Add behavior for this event.
-    alert('score x6');
-    localStorage.scoreRate = 6;
+    // alert('score x6');
+    FBInstant.payments.purchaseAsync({
+      productID: 'scorex6',
+      developerPayload: 'foobar'
+    }).then(function (purchase) {
+      // alert(purchase);
+      localStorage.scoreRate = 6;
+    });
+    FBInstant.payments.consumePurchaseAsync('scorex6').then(function () {
+    }).catch(function(error) {
+    });
   };
 }(this));
