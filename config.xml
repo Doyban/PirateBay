@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.doyban.piratebay" version="1.5.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>PirateBay</name>
+    <description>Take a challenge and access legendary PirateBay!</description>
+    <author email="contact@doyban.com" href="https://doyban.com/">Doyban</author>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <plugin name="cordova-plugin-purchase" spec="^9.0.1" />
+    <plugin name="cordova-plugin-inappbrowser" spec="^3.1.0" />
+    <plugin name="cordova-plugin-admob-simple" spec="^3.3.8" />
+    <plugin name="cordova-plugin-x-socialsharing" spec="^5.6.2" />
+    <plugin name="cordova-plugin-facebook4" spec="^6.2.0">
+      <params>
+        <param name="APP_ID" value="472430283121874" />
+        <param name="APP_NAME" value="PirateBay" />
+      </params>
+    </plugin>
+    <plugin name="cordova-plugin-buildinfo" spec="4.0.0" />
+    <plugin name="cordova-universal-links-plugin-fix" spec="1.2.1" />
+    <plugin name="cordova-plugin-browsertab" spec="0.2.0" />
+    <plugin name="cordova-plugin-customurlscheme" spec="5.0.1">
+      <params>
+        <param name="URL_SCHEME" value="com.doyban.piratebay" />
+      </params>
+    </plugin>
+    <universal-links>
+        <host name="piratebay2.page.link" scheme="https" />
+        <host name="piratebay-67967.firebaseapp.com" scheme="https">
+            <path url="/__/auth/callback"/>
+        </host>
+    </universal-links>
+</widget>
