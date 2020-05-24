@@ -9,3 +9,5 @@ node_modules
 
 app/.DS_Store
 dist
+dist.zip
+.DS_Store

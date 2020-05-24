@@ -23,62 +23,66 @@
   };
 
   Store.prototype.startPaymentScorex2 = function () {
-    // TODO: Add behavior for this event.
-    // alert('score x2');
     FBInstant.payments.purchaseAsync({
-      productID: 'scorex2',
-      developerPayload: 'foobar'
+      productID: 'scorex2'
     }).then(function (purchase) {
-      // alert(purchase);
-      localStorage.scoreRate = 2;
-    });
-    FBInstant.payments.consumePurchaseAsync('scorex2').then(function () {
-    }).catch(function(error) {
+      FBInstant.logEvent('Method purchaseAsync of method startPaymentScorex2 ran successfully. Purchase details: ', purchase); // Log "purchaseAsync" of "startPaymentScorex2" information to Facebook Analytics.
+      FBInstant.payments.consumePurchaseAsync(purchase.purchaseToken).then(function () {
+        localStorage.scoreRate = 2; // Set appropriate quantity of extra score rate.
+        FBInstant.logEvent('Method consumePurchaseAsync of method startPaymentScorex2 ran successfully.'); // Log "consumePurchaseAsync" of "startPaymentScorex2" information to Facebook Analytics.
+      }).catch(function (error) {
+        FBInstant.logEvent('Method consumePurchaseAsync of method startPaymentScorex2 error: ', error); // Log "consumePurchaseAsync" of "startPaymentScorex2" error to Facebook Analytics.
+      });
+    }).catch(function (error) {
+      FBInstant.logEvent('Method purchaseAsync of method startPaymentScorex2 error: ', error); // Log "purchaseAsync" of "startPaymentScorex2" error to Facebook Analytics.
     });
   };
 
   Store.prototype.startPaymentScorex3 = function () {
-    // TODO: Add behavior for this event.
-    // alert('score x3');
     FBInstant.payments.purchaseAsync({
-      productID: 'scorex3',
-      developerPayload: 'foobar'
+      productID: 'scorex3'
     }).then(function (purchase) {
-      // alert(purchase);
-      localStorage.scoreRate = 3;
-    });
-    FBInstant.payments.consumePurchaseAsync('scorex3').then(function () {
-    }).catch(function(error) {
+      FBInstant.logEvent('Method purchaseAsync of method startPaymentScorex3 ran successfully. Purchase details: ', purchase); // Log "purchaseAsync" of "startPaymentScorex3" information to Facebook Analytics.
+      FBInstant.payments.consumePurchaseAsync(purchase.purchaseToken).then(function () {
+        localStorage.scoreRate = 3; // Set appropriate quantity of extra score rate.
+        FBInstant.logEvent('Method consumePurchaseAsync of method startPaymentScorex3 ran successfully.'); // Log "consumePurchaseAsync" of "startPaymentScorex3" information to Facebook Analytics.
+      }).catch(function (error) {
+        FBInstant.logEvent('Method consumePurchaseAsync of method startPaymentScorex3 error: ', error); // Log "consumePurchaseAsync" of "startPaymentScorex3" error to Facebook Analytics.
+      });
+    }).catch(function (error) {
+      FBInstant.logEvent('Method purchaseAsync of method startPaymentScorex3 error: ', error); // Log "purchaseAsync" of "startPaymentScorex3" error to Facebook Analytics.
     });
   };
 
   Store.prototype.startPaymentScorex4 = function () {
-    // TODO: Add behavior for this event.
-    // alert('score x4');
     FBInstant.payments.purchaseAsync({
-      productID: 'scorex4',
-      developerPayload: 'foobar'
+      productID: 'scorex4'
     }).then(function (purchase) {
-      // alert(purchase);
-      localStorage.scoreRate = 4;
-    });
-    FBInstant.payments.consumePurchaseAsync('scorex4').then(function () {
-    }).catch(function(error) {
+      FBInstant.logEvent('Method purchaseAsync of method startPaymentScorex4 ran successfully. Purchase details: ', purchase); // Log "purchaseAsync" of "startPaymentScorex4" information to Facebook Analytics.
+      FBInstant.payments.consumePurchaseAsync(purchase.purchaseToken).then(function () {
+        localStorage.scoreRate = 4; // Set appropriate quantity of extra score rate.
+        FBInstant.logEvent('Method consumePurchaseAsync of method startPaymentScorex4 ran successfully.'); // Log "consumePurchaseAsync" of "startPaymentScorex4" information to Facebook Analytics.
+      }).catch(function (error) {
+        FBInstant.logEvent('Method consumePurchaseAsync of method startPaymentScorex4 error: ', error); // Log "consumePurchaseAsync" of "startPaymentScorex4" error to Facebook Analytics.
+      });
+    }).catch(function (error) {
+      FBInstant.logEvent('Method purchaseAsync of method startPaymentScorex4 error: ', error); // Log "purchaseAsync" of "startPaymentScorex4" error to Facebook Analytics.
     });
   };
 
   Store.prototype.startPaymentScorex6 = function () {
-    // TODO: Add behavior for this event.
-    // alert('score x6');
     FBInstant.payments.purchaseAsync({
-      productID: 'scorex6',
-      developerPayload: 'foobar'
+      productID: 'scorex6'
     }).then(function (purchase) {
-      // alert(purchase);
-      localStorage.scoreRate = 6;
-    });
-    FBInstant.payments.consumePurchaseAsync('scorex6').then(function () {
-    }).catch(function(error) {
+      FBInstant.logEvent('Method purchaseAsync of method startPaymentScorex6 ran successfully. Purchase details: ', purchase); // Log "purchaseAsync" of "startPaymentScorex6" information to Facebook Analytics.
+      FBInstant.payments.consumePurchaseAsync(purchase.purchaseToken).then(function () {
+        localStorage.scoreRate = 6; // Set appropriate quantity of extra score rate.
+        FBInstant.logEvent('Method consumePurchaseAsync of method startPaymentScorex6 ran successfully.'); // Log "consumePurchaseAsync" of "startPaymentScorex6" information to Facebook Analytics.
+      }).catch(function (error) {
+        FBInstant.logEvent('Method consumePurchaseAsync of method startPaymentScorex6 error: ', error); // Log "consumePurchaseAsync" of "startPaymentScorex6" error to Facebook Analytics.
+      });
+    }).catch(function (error) {
+      FBInstant.logEvent('Method purchaseAsync of method startPaymentScorex6 error: ', error); // Log "purchaseAsync" of "startPaymentScorex6" error to Facebook Analytics.
     });
   };
 }(this));

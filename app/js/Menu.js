@@ -18,8 +18,7 @@
     this.loginButton = this.game.add.button(this.game.world.width * 0.445, this.game.world.height * 0.3, "login", this.startLogin, this);
     this.shareButton = this.game.add.button(this.game.world.width * 0.7, this.game.world.height * 0.3, "share", this.startShare, this);
     this.playButton = this.game.add.button(this.game.world.width * 0.1, this.game.world.height * 0.5, "play", this.startPlay, this);
-    // TOOD: Put it back and integrate Messenger API.
-    // this.storeButton = this.game.add.button(this.game.world.width * 0.6, this.game.world.height * 0.5, "store", this.startStore, this);
+    this.storeButton = this.game.add.button(this.game.world.width * 0.6, this.game.world.height * 0.5, "store", this.startStore, this);
 
     localStorage.scoreRate = localStorage.scoreRate || 1; // Initialize scoreRate.
 
@@ -36,9 +35,9 @@
       stroke: '#535353',
       strokeThickness: 5
     });
-  };
 
-  initAds(); // Init Messenger ads.
+    initAds(); // Init Messenger ads.
+  };
 
   // Method to display medal based on player score.
   Menu.prototype.displayMedal = function () {
